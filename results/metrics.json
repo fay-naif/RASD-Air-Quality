@@ -1,0 +1,28 @@
+{
+  "source": "https://archive.ics.uci.edu/dataset/501/beijing+multi+site+air+quality+data",
+  "station": "Aotizhongxin",
+  "raw_rows": 35064,
+  "target": "PM2.5 at forecast origin plus one hour (µg/m³)",
+  "splits": {
+    "train": 23317,
+    "validation": 4997,
+    "test": 4997,
+    "test_start": "2016-08-03 02:00:00",
+    "test_end": "2017-02-28 22:00:00"
+  },
+  "selected_model": "hist_gradient_boosting",
+  "results": {
+    "hist_gradient_boosting": {
+      "test": {
+        "MAE": 10.723210829747279,
+        "RMSE": 20.575713728774705,
+        "R2": 0.9527297941760445
+      }
+    }
+  },
+  "held_out_test": {
+    "MAE": 10.723210829747279,
+    "RMSE": 20.575713728774705,
+    "R2": 0.9527297941760445
+  }
+}

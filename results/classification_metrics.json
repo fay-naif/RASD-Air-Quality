@@ -1,0 +1,56 @@
+{
+  "source": "UCI Beijing Aotizhongxin",
+  "target": "PM2.5 class at the following hour",
+  "classes": [
+    "منخفض",
+    "مرتفع قليلاً",
+    "مرتفع",
+    "مرتفع جداً"
+  ],
+  "validation_macro_f1": 0.7007873987544982,
+  "held_out_test": {
+    "accuracy": 0.7968781268761257,
+    "balanced_accuracy": 0.7795533348975812,
+    "macro_f1": 0.7408228998733074
+  },
+  "splits": {
+    "train": 23317,
+    "validation": 4997,
+    "test": 4997,
+    "test_start": "2016-08-03 02:00:00",
+    "test_end": "2017-02-28 22:00:00"
+  },
+  "features": [
+    "PM2.5",
+    "PM10",
+    "SO2",
+    "NO2",
+    "CO",
+    "O3",
+    "TEMP",
+    "PRES",
+    "DEWP",
+    "RAIN",
+    "WSPM",
+    "hour_sin",
+    "hour_cos",
+    "month_sin",
+    "month_cos"
+  ],
+  "training_median_features": [
+    "PM2.5",
+    "PM10",
+    "SO2",
+    "NO2",
+    "CO",
+    "O3",
+    "TEMP",
+    "PRES",
+    "DEWP",
+    "RAIN",
+    "WSPM"
+  ],
+  "uses_lags": false,
+  "uses_rolling_means": false,
+  "leakage_control": "Features use only current/past observations and time signals. The target is next-hour PM2.5, and fitting never crosses the chronological split."
+}
