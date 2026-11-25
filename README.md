@@ -1,6 +1,16 @@
 # راصد | RASD
 
 تطبيق عربي ثنائي اللغة لاستكشاف قراءات جودة الهواء وتصنيف تركيز PM2.5 في الساعة التالية لمحطة Aotizhongxin في بكين.
+## صور من التطبيق
+
+### القراءات واتجاه الملوثات
+
+![القراءات واتجاه الملوثات](https://github.com/user-attachments/assets/dfa0396e-696a-49e0-aede-a3eba36228c9)
+
+### تقييم النموذج
+
+![تقييم النموذج](https://github.com/user-attachments/assets/be439efc-dfdd-42ba-b9c2-9ab1cf5bc22f)
+
 
 ## الهدف والبيانات
 
